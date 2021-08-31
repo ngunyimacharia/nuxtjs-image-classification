@@ -49,8 +49,6 @@ export default {
 
   cloudinary: {
     cloudName: process.env.NUXT_ENV_CLOUDINARY_CLOUD_NAME,
-    apiKey: process.env.NUXT_ENV_CLOUDINARY_API_KEY,
-    apiSecret: process.env.NUXT_ENV_CLOUDINARY_API_SECRET,
     useComponent: true
   },
 }
